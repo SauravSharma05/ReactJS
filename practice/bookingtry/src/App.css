@@ -4,10 +4,6 @@
   box-sizing: border-box;
   border: 1px solid black;
 }
-/* .App{
-  background-color: #003B95;
-  color: white;
-} */
 .df{
   display: flex;
 }
@@ -60,4 +56,16 @@ button{
   width: 25%;
   height: 50px;
   padding: 5px;
+}
+.pbox{
+  margin-top: 50px;
+  gap: 20px;
+}
+.pcard{
+  width: 30%;
+  border-radius: 15px;
+  border: 1px solid blue;
+}
+.cimg{
+  height: 200px;
 }
