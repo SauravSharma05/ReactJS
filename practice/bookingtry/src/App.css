@@ -69,3 +69,33 @@ button{
 .cimg{
   height: 200px;
 }
+.txt1{
+  font-size: 20px;
+}
+.txt2{
+  font-size: 15px;
+}
+.Stay{
+  margin-top: 50px; 
+  gap: 20px;
+}
+.butsy{
+  height: 40px;
+  width: 550px;
+}
+.butsub{
+  height: 100%;
+  width: 150px;
+}
+.butcol{
+  background-color: #006CE4;
+  color: white;
+}
+.regbut{
+  background-color: white;
+  color: #006CE4;
+}
+input{
+  width: 100%;
+  padding: 5px;
+}
