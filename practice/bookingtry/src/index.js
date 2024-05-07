@@ -3,11 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Header1 from './Header1';
 import reportWebVitals from './reportWebVitals';
+import Footer1 from './Footer1';
+import Body1 from './Body1';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
+    <div>
     <Header1 />
+    <Body1 />
+    <Footer1 />
+    </div>
 
 );
 
