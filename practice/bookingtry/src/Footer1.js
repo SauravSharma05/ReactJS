@@ -25,6 +25,21 @@ import React from "react";
             <div className='Headerb1 btn df aic'>Become an affiliate</div>
             <div className='Headerb1 btn df aic'>Booking.com for Business</div>
         </div>
+        <div className="w70 df">
+            <div className='Headerb1 df aic'>
+                  <div><li>Countries</li></div>
+                  <div><li>Regions</li></div>
+                  <div><li>Cities</li></div>
+                  <div><li>Districts</li></div>
+                  <div><li>Airports</li></div>
+                  <div><li>Hotels</li></div>
+                  <div><li>Places of interest</li></div>
+            </div>
+            
+            <div className='Headerb1 df aic'>Your account</div>
+        </div>
+
+        
     </div>
   );
 }
