@@ -26,6 +26,28 @@ function Header1() {
             <div className='Headerb1 btn df aic'>Airport taxis</div>
         </div>
         
+        
+        <div className='Header2 df jcs fdc w70'>
+            <div className='Headerb1 df aic txt1'>Find your next stay</div>
+            <div className='Headerb1 df aic'>Search deals on hotels, homes and much more... </div>
+        </div>
+
+        <div className='Searchbox w70 df'>
+            <div className='Dd1'>
+              <select className='w100'>
+                    <option>A</option>
+                    <option>B</option>
+              </select>
+            </div>
+            <div className='Dd1'><input className='w100' type='date'></input></div>
+            <div className='Dd1'>
+              <select className='w100'>
+                    <option>A</option>
+                    <option>B</option>
+              </select>
+            </div>
+            <div className='Dd1'><button className='butcol'>Search</button></div>
+        </div>
   
     </div>
   );
