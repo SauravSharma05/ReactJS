@@ -33,6 +33,19 @@
   padding: 15px;
   gap: 30px;
 }
+.bghead{
+  background-image: url('images/head_bg.jpeg');
+  background-repeat: no-repeat;
+  color: white;
+  background-size: cover;
+}
+.bharat{
+  border-radius: 50%;
+}
+.bgcolohead{
+  background-color: #003B95;
+  color: white;
+}
 .Header2{
   padding: 15px;
   margin-top: 50px;

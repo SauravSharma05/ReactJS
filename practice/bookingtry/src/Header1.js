@@ -5,12 +5,17 @@ function Header1() {
   return (
     <div className="App">
 
+        <div className='bgcolohead'>
 
         <div className='Header1 df jcsb w70'>
-        <div className='Headera df aic'>Booking.com</div>
+        <div className='Headera df aic'>
+          <img src='images/logo_bbo.png'></img>
+        </div>
         <div className='Headerb df'>
             <div className='Headerb1 df aic'>India</div>
-            <div className='Headerb1 df aic'>flag</div>
+            <div className='Headerb1 df aic'>
+              <img className='bharat' src='images/bharat.png'></img>
+            </div>
             <div className='Headerb1 df aic'>help icon</div>
             <div className='Headerb1 df aic'>List your property</div>
             <div className='Headerb1 btn df aic'><button className='regbut'>Register</button></div>
@@ -25,8 +30,10 @@ function Header1() {
             <div className='Headerb1 btn df aic'>Attractions</div>
             <div className='Headerb1 btn df aic'>Airport taxis</div>
         </div>
+        </div>
         
-        
+        <div className='bghead'>
+
         <div className='Header2 df jcs fdc w70'>
             <div className='Headerb1 df aic txt1'>Find your next stay</div>
             <div className='Headerb1 df aic'>Search deals on hotels, homes and much more... </div>
@@ -48,6 +55,7 @@ function Header1() {
             </div>
             <div className='Dd1'><button className='butcol'>Search</button></div>
         </div>
+          </div>
   
     </div>
   );
