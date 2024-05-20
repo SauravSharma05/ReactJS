@@ -122,3 +122,10 @@ img{
 .footbar{
   margin-top: 20px;
 }
+li{
+  list-style: none;
+}
+.footl{
+  width: 20%;
+  align-items: start;
+}
