@@ -16,7 +16,7 @@ function Header1() {
             <div className='Headerb1 df aic'>
               <img className='bharat' src='images/bharat.png'></img>
             </div>
-            <div className='Headerb1 df aic'>help icon</div>
+            <div className='Headerb1 df aic'><i class="fa-regular fa-circle-question fa-xl"></i></div>
             <div className='Headerb1 df aic'>List your property</div>
             <div className='Headerb1 btn df aic'><button className='regbut'>Register</button></div>
             <div className='Headerb1 btn df aic'><button className='regbut'>Sign in</button></div>
@@ -40,20 +40,20 @@ function Header1() {
         </div>
 
         <div className='Searchbox w70 df'>
-            <div className='Dd1'>
+            <div className='Dd1 Dd1a'>
               <select className='w100'>
-                    <option>A</option>
+                    <option>Ahmedabad</option>
                     <option>B</option>
               </select>
             </div>
-            <div className='Dd1'><input className='w100' type='date'></input></div>
-            <div className='Dd1'>
+            <div className='Dd1 Dd1b'><input className='w100' type='date'></input></div>
+            <div className='Dd1 Dd1c'>
               <select className='w100'>
-                    <option>A</option>
+                    <option>1 adult - 0 children - 1 room</option>
                     <option>B</option>
               </select>
             </div>
-            <div className='Dd1'><button className='butcol'>Search</button></div>
+            <div className='Dd1 Dd1d'><button className='butcol'>Search</button></div>
         </div>
           </div>
   

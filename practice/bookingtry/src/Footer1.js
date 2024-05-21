@@ -3,6 +3,9 @@ import React from "react";
   function Footer1() {
   return (
     <div>
+
+      <div className="stay1">
+
       <div className="Stay w70 df fdc aic">
         <div className="txt1">Stay in the know</div>
            <div className="txt2">
@@ -17,7 +20,10 @@ import React from "react";
         <div className="txt2">You can opt out anytime. See our <a href="#">privacy statement.</a>
         </div>
         </div>
+      </div>
+
         
+        <div className="f1">
         <div className="w70 txt2 df footbar jcsb">
         <div className='Headerb1 df aic'>Mobile version</div>
             <div className='Headerb1 df aic'>Your account</div>
@@ -26,9 +32,10 @@ import React from "react";
             <div className='Headerb1 btn df aic'>Become an affiliate</div>
             <div className='Headerb1 btn df aic'>Booking.com for Business</div>
         </div>
+        </div>
 
 
-        <div className="w70 df">
+        <div className="w70 df footbar2">
             <div className='Headerb1 df fdc footl'>
                   <div><li>Countries</li></div>
                   <div><li>Regions</li></div>

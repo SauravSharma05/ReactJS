@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid black;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   /* user-select: none; */
 }
@@ -38,6 +37,9 @@
   background-repeat: no-repeat;
   color: white;
   background-size: cover;
+  margin-top: -50px;
+  height: 400px;
+  position: relative;
 }
 .bharat{
   border-radius: 50%;
@@ -66,11 +68,31 @@ button{
 }
 .Searchbox{
   margin-top: 50px;
+  position: absolute;
+  bottom: -25px;
+  left: 230px;
+  background-color: #ffb700;
+  border-radius: 5px;
+}
+select{
+  border-radius: 5px;
 }
 .Dd1{
   width: 25%;
-  height: 50px;
+  height: 65px;
   padding: 5px;
+}
+.Dd1a{
+  width: 35%;
+}
+.Dd1b{
+  width: 25%;
+}
+.Dd1c{
+  width: 25%;
+}
+.Dd1d{
+  width: 15%;
 }
 .pbox{
   margin-top: 50px;
@@ -94,6 +116,10 @@ button{
 .Stay{
   margin-top: 50px; 
   gap: 20px;
+}
+.stay1{
+  background-color: #00224F;
+  color: white;
 }
 .butsy{
   height: 40px;
@@ -122,10 +148,49 @@ img{
 .footbar{
   margin-top: 20px;
 }
+.f1{
+  background-color: #003B95;
+  color: white;
+}
 li{
   list-style: none;
+  margin-bottom: 5px;
 }
 .footl{
   width: 20%;
   align-items: start;
+  font-size: 13px;
+}
+.footbar2{
+  margin-top: 50px;
+  color: #216CE4;
+}
+
+
+@media(max-width:576px){
+    .Header1{
+      width: 100%;
+      flex-direction: column;
+    }
+    .Headerb{
+      width: 100%;
+      flex-direction: column;
+    }
+    .bharat{
+      width: 50px;
+    }
+    .Headera{
+      height: 50px;
+      width: 150px;
+    }
+    .Headerb2{
+      flex-direction: column;
+    }
+    .pcard{
+      width: 90%;
+    }
+    .footbar{
+      flex-direction: column;
+      align-items: center;
+    }
 }
