@@ -17,7 +17,7 @@ import React from 'react'
             <div className='Headerb2 df jcsb'>
                   <div className='pcard df fdc'>
                         <div className='cimg'>
-                          <img src='logo512.png'></img>
+                          <img src='./images/h1.webp'></img>
                         </div>
                         <div className='txt1'>Aparthhotel Stare Miastro</div>
                         <div className='txt2'>Old Town, Poland, Krakow</div>
@@ -25,7 +25,7 @@ import React from 'react'
                   </div>
                   <div className='pcard df fdc'>
                         <div className='cimg'>
-                          <img src='logo512.png'></img>
+                          <img src='./images/h2.webp'></img>
                         </div>
                         <div className='txt1'>Aparthhotel Stare Miastro</div>
                         <div className='txt2'>Old Town, Poland, Krakow</div>
@@ -33,7 +33,7 @@ import React from 'react'
                   </div>
                   <div className='pcard df fdc'>
                         <div className='cimg'>
-                          <img src='logo512.png'></img>
+                          <img src='./images/h3.webp'></img>
                         </div>
                         <div className='txt1'>Aparthhotel Stare Miastro</div>
                         <div className='txt2'>Old Town, Poland, Krakow</div>

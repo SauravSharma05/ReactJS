@@ -1,18 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-
 function Header1() {
   return (
     <div className="App">
-
+      
         <div className='bgcolohead'>
 
         <div className='Header1 df jcsb w70'>
         <div className='Headera df aic'>
-          <img src='images/logo_bbo.png'></img>
+          <img src='images/booklogo.jpg'></img>
         </div>
         <div className='Headerb df'>
-            <div className='Headerb1 df aic'>India</div>
+            <div className='Headerb1 df aic'>India
+            </div>
             <div className='Headerb1 df aic'>
               <img className='bharat' src='images/bharat.png'></img>
             </div>
