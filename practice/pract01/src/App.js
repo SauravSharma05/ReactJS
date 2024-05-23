@@ -13,7 +13,8 @@ function App() {
       {/* { <Fetching/> } */}
       {/* { <Classcomp/> } */}
       {/* { <Box/> } */}
-      { <MouseMove/> }
+      
+      {/* { <MouseMove/> } */}
       {/* { <List/> } */}
       {/* { <Hook1/> } */}
     </div>
