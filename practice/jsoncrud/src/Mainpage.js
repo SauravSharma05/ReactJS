@@ -1,18 +1,28 @@
-import React, { useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import React, { useEffect, useState } from 'react'
+import { Link, useNavigate } from 'react-router-dom'
 
 function Mainpage() {
 
-  // useEffect(()=>{
+  const [Dat,setDat] = useState("");
+  const navi = useNavigate()
 
-  //       fetch('http://localhost:8000/users')
-  //       .then((res)=>{return res.json()})
-  //       .then((data)=>{
+  useEffect(()=>{
 
-  //               (data);
+        fetch('http://localhost:7000/users')
+        .then((res)=>{return res.json()})
+        .then((data)=>{
 
-  //       })
-  //   },[])
+              setDat(data);
+
+
+        })
+    },[])
+
+    const viewpage = (id)=>{
+
+      navi('/viewuser/'+id)
+
+    }
 
 
   return (
@@ -20,13 +30,22 @@ function Mainpage() {
         <ul>
             <li><Link to="/addnew">addnew</Link></li>
         </ul>
-
         <table className="table">
-                <thead className="table-dark">
-                <th scope="col">Name</th>
-                </thead>
+                <tr>
+                  <th>NAME</th>
+                </tr>
                 <tbody>
-                    
+
+          {Dat && Dat.map((v,i)=>(
+              <tr key={i}>
+                <td>{v.name}</td>
+                <td>
+                      <button className='btn btn-primary' onClick={()=>{viewpage(v.id)}}>view</button>
+                      <button className='btn btn-warning mx-3'>edit</button>
+                      <button className='btn btn-danger'>delete</button>
+                </td>
+              </tr>
+          ))}
                 </tbody>
         </table> 
     </div>
