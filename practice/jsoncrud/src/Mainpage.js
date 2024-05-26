@@ -24,6 +24,20 @@ function Mainpage() {
 
     }
 
+    const Delete =(id)=>{
+      fetch('http://localhost:7000/users/'+id,{
+        method:"delete",
+        headers:{"content-type":"application/json"},
+        
+      })
+      .then((res)=>{
+        if(res){
+          alert('User Deleted..!')
+          navi('/')
+        }})
+  
+  }
+
 
   return (
     <div>        
@@ -41,8 +55,8 @@ function Mainpage() {
                 <td>{v.name}</td>
                 <td>
                       <button className='btn btn-primary' onClick={()=>{viewpage(v.id)}}>view</button>
-                      <button className='btn btn-warning mx-3'>edit</button>
-                      <button className='btn btn-danger'>delete</button>
+                      <button className="btn btn-warning" onClick={()=>{Edit(v.id)}}>Edit</button>
+                      <button className="btn btn-danger" onClick={()=>{Delete(v.id)}}>Delete</button>
                 </td>
               </tr>
           ))}
