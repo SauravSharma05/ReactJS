@@ -6,6 +6,7 @@ import Classcomp from './Classcompo';
 import Box from './Box';
 import List from './List';
 import MouseMove from './Mousemove';
+import WelcomePanel from './Multihooksuse';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       {/* { <Fetching/> } */}
       {/* { <Classcomp/> } */}
       {/* { <Box/> } */}
-      
+      <WelcomePanel></WelcomePanel>
       {/* { <MouseMove/> } */}
       {/* { <List/> } */}
       {/* { <Hook1/> } */}
