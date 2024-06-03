@@ -1,6 +1,6 @@
 import React from "react";
-
   function Footer1() {
+
   return (
     <div>
 
@@ -88,5 +88,4 @@ import React from "react";
     </div>
   );
 }
-
 export default Footer1;

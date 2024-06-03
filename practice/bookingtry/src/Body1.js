@@ -4,9 +4,6 @@ import React from 'react'
  function Body1() {
   return (
     <div>
-       
-
-
         <div className='Header2 df jcs fdc w70'>
             <div className='Headerb1 df aic txt1'>Looking for perfect stay?</div>
             <div className='Headerb1 df aic'>Travellers with similar searches booked these properties</div>

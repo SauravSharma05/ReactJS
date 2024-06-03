@@ -5,6 +5,8 @@ import Header1 from './Header1';
 import reportWebVitals from './reportWebVitals';
 import Footer1 from './Footer1';
 import Body1 from './Body1';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Pcard1info from './Pcard1info';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
