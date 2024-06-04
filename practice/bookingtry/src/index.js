@@ -12,6 +12,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
     <div>
+        <BrowserRouter>
+                <Routes>
+                    <Route path='/' element={<Pcard1info></Pcard1info>} />
+                </Routes>
+        </BrowserRouter>
     <Header1 />
     <Body1 />
     <Footer1 />
