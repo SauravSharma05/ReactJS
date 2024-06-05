@@ -1,9 +1,12 @@
 import React from 'react'
+import Footer1 from './Footer1'
+import Header1 from './Header1'
 
 function Pcard1info() {
   return (
     <div>
-        pcard 1 page
+        <Header1 />
+        <Footer1 />
     </div>
   )
 }
