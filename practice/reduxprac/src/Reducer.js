@@ -17,7 +17,7 @@
     reducers: {
       addusers: (state, action) => {
           // console.log(state)//[]
-          // console.log(action.payload);//{name: '', email: ''}
+          // console.log(action.payload);//{name: '', email: ''}  
   
           state.push(action.payload)
       },
